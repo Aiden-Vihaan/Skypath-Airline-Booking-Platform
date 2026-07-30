@@ -1,10 +1,10 @@
-# ✈️ SkyPath — Airline Booking Platform
+#  SkyPath — Airline Booking Platform
 
 > An end-to-end UX/UI case study for a next-generation airline booking platform, covering user research, interaction design, design systems, accessibility, and high-fidelity prototyping.
 
 ---
 
-## 📖 Overview
+##  Overview
 
 SkyPath is a conceptual airline booking platform designed to simplify domestic and international air travel through a seamless, accessible, and user-centred experience.
 
@@ -14,7 +14,7 @@ Rather than redesigning an existing airline website, SkyPath reimagines the enti
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 Modern airline booking platforms often prioritise business goals over user experience.
 
@@ -32,7 +32,7 @@ SkyPath aims to reduce friction while increasing transparency, efficiency, and c
 
 ---
 
-## 🚀 Project Goals
+##  Project Goals
 
 - Simplify flight booking
 - Improve booking completion rate
@@ -44,7 +44,7 @@ SkyPath aims to reduce friction while increasing transparency, efficiency, and c
 
 ---
 
-# 👨‍💻 My Role
+#  My Role
 
 UX Researcher
 
@@ -62,7 +62,7 @@ Case Study Author
 
 ---
 
-# 🛠 Design Process
+#  Design Process
 
 This project follows an end-to-end Human-Centred Design process.
 
@@ -108,7 +108,7 @@ Final Case Study
 
 ---
 
-# 📂 Repository Structure
+#  Repository Structure
 
 ```
 SkyPath-Airline-Booking-Platform
@@ -134,7 +134,7 @@ SkyPath-Airline-Booking-Platform
 
 ---
 
-# 🔬 UX Research
+#  UX Research
 
 The research phase includes:
 
@@ -148,7 +148,7 @@ The research phase includes:
 
 ---
 
-# 🎨 Design System
+#  Design System
 
 The design system includes:
 
@@ -164,7 +164,7 @@ The design system includes:
 
 ---
 
-# 📱 Platforms
+#  Platforms
 
 - Mobile
 - Tablet
@@ -174,7 +174,7 @@ Responsive layouts are designed for multiple breakpoints.
 
 ---
 
-# ✨ Core Features
+#  Core Features
 
 - Flight Search
 - Smart Filters
@@ -193,7 +193,7 @@ Responsive layouts are designed for multiple breakpoints.
 
 ---
 
-# ♿ Accessibility
+#  Accessibility
 
 Accessibility is a core design principle.
 
@@ -209,7 +209,7 @@ The project follows WCAG 2.2 guidelines including:
 
 ---
 
-# 🖥 Tools
+#  Tools
 
 - Figma
 - FigJam
@@ -219,7 +219,7 @@ The project follows WCAG 2.2 guidelines including:
 
 ---
 
-# 📊 Deliverables
+#  Deliverables
 
 ✔ Product Strategy
 
@@ -249,13 +249,13 @@ The project follows WCAG 2.2 guidelines including:
 
 ---
 
-# 📸 Project Preview
+#  Project Preview
 
 > Screenshots and prototype previews will be added during development.
 
 ---
 
-# 🔗 Prototype
+#  Prototype
 
 Figma Prototype
 
@@ -263,13 +263,13 @@ Coming Soon
 
 ---
 
-# 📚 Documentation
+#  Documentation
 
 Project documentation is organised into dedicated folders covering every stage of the UX process.
 
 ---
 
-# 🌱 Future Improvements
+#  Future Improvements
 
 - AI-powered travel assistant
 - Smart itinerary planning
@@ -282,7 +282,7 @@ Project documentation is organised into dedicated folders covering every stage o
 
 ---
 
-# 🎓 Learning Outcomes
+#  Learning Outcomes
 
 This project demonstrates:
 
@@ -299,7 +299,7 @@ This project demonstrates:
 
 ---
 
-# 📄 License
+#  License
 
 This repository contains original design work and documentation created for educational and portfolio purposes.
 
@@ -307,9 +307,9 @@ All rights reserved unless otherwise specified.
 
 ---
 
-# ⭐ Status
+#  Status
 
-🚧 Work in Progress
+ Work in Progress
 
 Current Phase:
 Product Discovery & UX Research
