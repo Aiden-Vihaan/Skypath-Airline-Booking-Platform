@@ -1,318 +1,130 @@
-#  SkyPath — Airline Booking Platform
+I created this section to keep track of how the project was structured, what I was trying to solve, how the design process progressed, and why certain decisions were made along the way.
 
-> An end-to-end UX/UI case study for a next-generation airline booking platform, covering user research, interaction design, design systems, accessibility, and high-fidelity prototyping.
+## About the Project
 
----
+**SkyPath** is a conceptual airline booking platform focused on making the flight-booking experience clearer, easier to compare, and less overwhelming.
 
-##  Overview
+The project started with a simple question:
 
-SkyPath is a conceptual airline booking platform designed to simplify domestic and international air travel through a seamless, accessible, and user-centred experience.
+> How can an airline booking experience help people make confident decisions without making the process feel complicated?
 
-This project follows a complete product design process—from product strategy and UX research to interaction design, design systems, high-fidelity interfaces, and interactive prototypes.
+From there, I explored the booking journey from the user's perspective — from searching for a flight and comparing options to entering passenger details, selecting a seat, completing payment, and accessing the trip afterwards.
 
-Rather than redesigning an existing airline website, SkyPath reimagines the entire booking journey by addressing common usability issues such as complex booking flows, hidden fees, confusing seat selection, fragmented trip management, and accessibility barriers.
-
----
-
-##  Problem Statement
-
-Modern airline booking platforms often prioritise business goals over user experience.
-
-Travellers frequently encounter:
-
-- Long and confusing booking flows
-- Hidden pricing during checkout
-- Poor mobile experiences
-- Complicated seat selection
-- Fragmented trip management
-- Limited accessibility support
-- Cognitive overload during booking
-
-SkyPath aims to reduce friction while increasing transparency, efficiency, and confidence throughout the travel experience.
+This project is primarily an exploration of **UX and interaction design**, rather than a fully developed production application.
 
 ---
 
-##  Project Goals
+## What I Wanted to Explore
 
-- Simplify flight booking
-- Improve booking completion rate
-- Reduce booking time
-- Increase pricing transparency
-- Improve accessibility (WCAG 2.2)
-- Create a scalable design system
-- Deliver a premium cross-platform experience
+Airline booking can involve a surprising number of decisions.
 
----
+Users may need to compare flight times, prices, stops, baggage allowances, fare conditions, seats and optional services before they can complete a booking.
 
-#  My Role
+My focus was to understand how the interface could organise this information without making the user feel lost or overloaded.
 
-UX Researcher
+The project therefore focuses on:
 
-Product Designer
-
-UI Designer
-
-Interaction Designer
-
-Design System Designer
-
-Prototype Designer
-
-Case Study Author
+- Making flight comparison easier
+- Improving pricing transparency
+- Reducing unnecessary repetition
+- Separating important decisions from optional choices
+- Making the booking journey easier to understand
+- Providing clear feedback throughout the process
+- Creating a consistent experience from search to post-booking
 
 ---
 
-#  Design Process
+## How I Approached the Project
 
-This project follows an end-to-end Human-Centred Design process.
+I approached SkyPath as an end-to-end UX design project rather than starting directly with polished screens.
 
-```
-Discover
-↓
+The process moved through several stages:
 
-Research
-↓
+**Understand → Define → Explore → Structure → Prototype → Refine**
 
-Define
-↓
+I first worked on the problem and product context, then explored users and their needs. Those insights informed the information architecture and user flows before moving into wireframes and the visual design system.
 
-Ideate
-↓
+The high-fidelity interface came later in the process.
 
-Information Architecture
-↓
-
-User Flows
-↓
-
-Wireframes
-↓
-
-Design System
-↓
-
-High Fidelity UI
-↓
-
-Prototype
-↓
-
-Usability Testing
-↓
-
-Iteration
-↓
-
-Final Case Study
-```
+This helped me separate **what the product should do** from **what the product should look like**.
 
 ---
 
-#  Repository Structure
+## What's Inside This Folder
 
-```
-SkyPath-Airline-Booking-Platform
+### `Project_Brief.pdf`
 
-├── 00_Project_Management
-├── 01_Product_Strategy
-├── 02_Competitive_Research
-├── 03_User_Research
-├── 04_Personas
-├── 05_Information_Architecture
-├── 06_User_Flows
-├── 07_Wireframes
-├── 08_Design_System
-├── 09_Component_Library
-├── 10_High_Fidelity_UI
-├── 11_Prototype
-├── 12_Usability_Testing
-├── 13_Case_Study
-├── 14_Portfolio
-├── 15_Assets
-└── README.md
-```
+The project brief establishes the overall direction of SkyPath, including the problem, vision, objectives, scope and intended outcome.
 
----
+### `Project_Requirements.pdf`
 
-#  UX Research
+Documents the requirements that guided the experience, including functional, UX and accessibility considerations.
 
-The research phase includes:
+### `Timeline.md`
 
-- Competitive Analysis
-- Heuristic Evaluation
-- User Interviews
-- Affinity Mapping
-- Journey Mapping
-- Personas
-- Information Architecture
+Provides an overview of the different stages of the project and how the work progressed from initial definition to final documentation.
+
+### `Decision_Log.md`
+
+Records important design decisions and the reasoning behind them.
+
+This is particularly useful when a design decision involved choosing between multiple possible approaches.
+
+### `Daily_Progress.md`
+
+Keeps track of major project progress and milestones throughout the design process.
+
+### `Submission_Checklist.md`
+
+A final checklist used to make sure the major project deliverables were completed and documented.
 
 ---
 
-#  Design System
+## Project Scope
 
-The design system includes:
+The project covers the core airline-booking journey:
 
-- Colour Tokens
-- Typography
-- Spacing System
-- Elevation
-- Motion
+**Search → Compare → Select Flight → Select Fare → Passenger Details → Seat Selection → Optional Services → Review → Payment → Confirmation → My Trips**
+
+The project also explores the supporting UX structure around this journey, including:
+
+- User personas
+- Empathy maps
+- Competitive analysis
+- Information architecture
+- Task flows
+- User flows
+- Low-fidelity wireframes
+- Design system
+- Reusable components
+- High-fidelity interface
+- Prototype
+- Usability considerations
 - Accessibility
-- Components
-- Icons
-- Grid System
+- Design rationale
 
 ---
 
-#  Platforms
+## Design Mindset
 
-- Mobile
-- Tablet
-- Desktop
+One of the main principles behind the project was to avoid treating the booking experience as a collection of individual screens.
 
-Responsive layouts are designed for multiple breakpoints.
+A user doesn't experience a product one screen at a time.
 
----
+They experience a journey.
 
-#  Core Features
-
-- Flight Search
-- Smart Filters
-- Fare Prediction
-- Seat Selection
-- Passenger Management
-- Digital Boarding Pass
-- Online Check-in
-- Trip Management
-- Loyalty Programme
-- AI Trip Planner
-- Carbon Footprint Calculator
-- Airport Indoor Navigation
-- Voice Search
-- Biometric Login
+For that reason, I tried to keep the relationship between screens consistent — information introduced earlier should remain understandable later, decisions should have clear consequences, and important actions should provide appropriate feedback.
 
 ---
 
-#  Accessibility
+## Current Status
 
-Accessibility is a core design principle.
+**Project:** SkyPath Airline Booking Platform  
+**Focus:** UX / UI & Human-Computer Interaction  
+**Stage:** Portfolio Case Study Development  
+**Status:** In Progress
 
-The project follows WCAG 2.2 guidelines including:
-
-- Colour contrast
-- Keyboard navigation
-- Screen reader compatibility
-- Touch target sizing
-- Reduced motion
-- Error prevention
-- Accessible forms
-
----
-
-#  Tools
-
-- Figma
-- FigJam
-- GitHub
-- Markdown
-- Google Docs / Microsoft Word
-
----
-
-#  Deliverables
-
-✔ Product Strategy
-
-✔ UX Research
-
-✔ Personas
-
-✔ Journey Maps
-
-✔ Information Architecture
-
-✔ User Flows
-
-✔ Wireframes
-
-✔ Design System
-
-✔ Component Library
-
-✔ High Fidelity UI
-
-✔ Interactive Prototype
-
-✔ Usability Testing
-
-✔ UX Case Study
-
----
-
-#  Project Preview
-
-> Screenshots and prototype previews will be added during development.
-
----
-
-#  Prototype
-
-Figma Prototype
-
-Coming Soon
-
----
-
-#  Documentation
-
-Project documentation is organised into dedicated folders covering every stage of the UX process.
-
----
-
-#  Future Improvements
-
-- AI-powered travel assistant
-- Smart itinerary planning
-- Offline travel mode
-- Wearable integration
-- Voice-first booking
-- Multi-language support
-- Personalised recommendations
-- Sustainable travel insights
-
----
-
-#  Learning Outcomes
-
-This project demonstrates:
-
-- Human-Centred Design
-- UX Research
-- Product Thinking
-- Design Systems
-- Accessibility
-- Interaction Design
-- Information Architecture
-- Visual Design
-- Prototyping
-- Usability Evaluation
-
----
-
-#  License
-
-This repository contains original design work and documentation created for educational and portfolio purposes.
-
-All rights reserved unless otherwise specified.
-
----
-
-#  Status
-
- Work in Progress
-
-Current Phase:
-Product Discovery & UX Research
+The repository will continue to evolve as the project documentation, interface exploration and supporting artefacts are refined.
 
 ---
 
@@ -320,12 +132,15 @@ Product Discovery & UX Research
 
 **Aiden Vihaan**
 
-Computer Science Graduate
+UX/UI Designer  
+Human-Computer Interaction
 
-Aspiring UX & Human–Computer Interaction Designer
+---
 
-GitHub:
-https://github.com/Aiden-Vihaan
+## A Note About This Repository
 
-Portfolio:
-(Coming Soon)
+SkyPath is a conceptual design project created to explore UX and interaction-design problems within the airline-booking domain.
+
+The repository documents not only the final interface, but also the thinking and design process behind it.
+
+The intention is to make the decisions, explorations and iterations visible rather than presenting the final screens as if they appeared fully formed.
