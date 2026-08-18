@@ -1,0 +1,107 @@
+{
+  "$schema": "https://design-tokens.github.io/community-group/format/",
+  "metadata": {
+    "product": "SkyPath Airline Booking Platform",
+    "version": "1.0.0",
+    "purpose": "Core design tokens for consistent, accessible and scalable product design."
+  },
+  "color": {
+    "brand": {
+      "primary": "#1D4ED8",
+      "primaryHover": "#1E40AF",
+      "primaryPressed": "#1E3A8A",
+      "secondary": "#0F766E"
+    },
+    "background": {
+      "default": "#FFFFFF",
+      "subtle": "#F8FAFC",
+      "surface": "#FFFFFF",
+      "inverse": "#0F172A"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#475569",
+      "tertiary": "#64748B",
+      "inverse": "#FFFFFF",
+      "disabled": "#94A3B8"
+    },
+    "border": {
+      "default": "#CBD5E1",
+      "subtle": "#E2E8F0",
+      "strong": "#94A3B8",
+      "focus": "#2563EB"
+    },
+    "feedback": {
+      "success": "#15803D",
+      "successBackground": "#F0FDF4",
+      "warning": "#B45309",
+      "warningBackground": "#FFFBEB",
+      "error": "#B91C1C",
+      "errorBackground": "#FEF2F2",
+      "information": "#0369A1",
+      "informationBackground": "#F0F9FF"
+    },
+    "flight": {
+      "available": "#15803D",
+      "selected": "#1D4ED8",
+      "unavailable": "#94A3B8",
+      "recommended": "#7C3AED"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "Inter",
+      "fallback": "Arial, sans-serif"
+    },
+    "fontSize": {
+      "xs": "12px",
+      "sm": "14px",
+      "md": "16px",
+      "lg": "18px",
+      "xl": "24px",
+      "2xl": "32px",
+      "3xl": "40px"
+    },
+    "fontWeight": {
+      "regular": 400,
+      "medium": 500,
+      "semibold": 600,
+      "bold": 700
+    },
+    "lineHeight": {
+      "tight": 1.2,
+      "normal": 1.5,
+      "relaxed": 1.7
+    }
+  },
+  "spacing": {
+    "0": "0px",
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "5": "20px",
+    "6": "24px",
+    "8": "32px",
+    "10": "40px",
+    "12": "48px",
+    "16": "64px"
+  },
+  "radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "12px",
+    "xl": "16px",
+    "pill": "999px"
+  },
+  "elevation": {
+    "none": "none",
+    "sm": "0 1px 2px rgba(15, 23, 42, 0.08)",
+    "md": "0 4px 12px rgba(15, 23, 42, 0.10)",
+    "lg": "0 10px 24px rgba(15, 23, 42, 0.12)"
+  },
+  "interaction": {
+    "focusRing": "0 0 0 3px rgba(37, 99, 235, 0.25)",
+    "minimumTouchTarget": "44px"
+  }
+}
