@@ -24,7 +24,6 @@ The format is inspired by [Keep a Changelog](https://keepachangelog.com/).
 
 ---
 
-## [1.0.0] - 2026-07-29
 
 ### Added
 - Created GitHub repository.
