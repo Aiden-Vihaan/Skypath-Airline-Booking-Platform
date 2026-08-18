@@ -40,10 +40,7 @@ The prototype is designed to:
 
 ## 4. Prototype Entry Point
 
-**Figma Prototype:**  
-> Add the final Figma prototype URL here.
 
-`[INSERT FINAL FIGMA PROTOTYPE LINK]`
 
 ### Prototype access
 
